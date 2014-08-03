@@ -1,0 +1,16 @@
+C:\WindowsApplication2\WindowsApplication2\bin\Debug\Helpdesk.exe.config
+C:\WindowsApplication2\WindowsApplication2\bin\Debug\Helpdesk.exe
+C:\WindowsApplication2\WindowsApplication2\bin\Debug\Helpdesk.pdb
+C:\WindowsApplication2\WindowsApplication2\bin\Debug\Helpdesk.xml
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.changepassword.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.complaint.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.Login.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.Form2.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.Engineer.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.Userregisteration.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.visit.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.Resources.resources
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\HelpDesk.vbproj.GenerateResource.Cache
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.exe
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.xml
+C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.pdb
