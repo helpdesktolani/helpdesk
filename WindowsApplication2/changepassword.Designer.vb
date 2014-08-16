@@ -37,6 +37,7 @@ Partial Class changepassword
         'lbl_Id
         '
         Me.lbl_Id.AutoSize = True
+        Me.lbl_Id.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Id.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Id.Location = New System.Drawing.Point(185, 100)
         Me.lbl_Id.Name = "lbl_Id"
@@ -54,6 +55,7 @@ Partial Class changepassword
         'Lbl_curentpassword
         '
         Me.Lbl_curentpassword.AutoSize = True
+        Me.Lbl_curentpassword.BackColor = System.Drawing.Color.Transparent
         Me.Lbl_curentpassword.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_curentpassword.Location = New System.Drawing.Point(90, 145)
         Me.Lbl_curentpassword.Name = "Lbl_curentpassword"
@@ -72,6 +74,7 @@ Partial Class changepassword
         'Lbl_newpassword
         '
         Me.Lbl_newpassword.AutoSize = True
+        Me.Lbl_newpassword.BackColor = System.Drawing.Color.Transparent
         Me.Lbl_newpassword.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_newpassword.Location = New System.Drawing.Point(109, 185)
         Me.Lbl_newpassword.Name = "Lbl_newpassword"
@@ -90,6 +93,7 @@ Partial Class changepassword
         'lbl_confirmpassword
         '
         Me.lbl_confirmpassword.AutoSize = True
+        Me.lbl_confirmpassword.BackColor = System.Drawing.Color.Transparent
         Me.lbl_confirmpassword.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_confirmpassword.Location = New System.Drawing.Point(83, 227)
         Me.lbl_confirmpassword.Name = "lbl_confirmpassword"

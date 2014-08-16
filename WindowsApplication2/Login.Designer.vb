@@ -28,6 +28,9 @@ Partial Class Login
         Me.Txt_userid = New System.Windows.Forms.TextBox()
         Me.Lbl_userid = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Lnpl_forgetpassword = New System.Windows.Forms.LinkLabel()
+        Me.Lnpl_changepassword = New System.Windows.Forms.LinkLabel()
+        Me.Btn_cancel = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Btn_login
@@ -35,10 +38,10 @@ Partial Class Login
         Me.Btn_login.BackColor = System.Drawing.Color.LightGray
         Me.Btn_login.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn_login.ForeColor = System.Drawing.Color.Navy
-        Me.Btn_login.Location = New System.Drawing.Point(136, 186)
+        Me.Btn_login.Location = New System.Drawing.Point(140, 193)
         Me.Btn_login.Margin = New System.Windows.Forms.Padding(4)
         Me.Btn_login.Name = "Btn_login"
-        Me.Btn_login.Size = New System.Drawing.Size(109, 41)
+        Me.Btn_login.Size = New System.Drawing.Size(102, 33)
         Me.Btn_login.TabIndex = 9
         Me.Btn_login.Text = "Login"
         Me.Btn_login.UseVisualStyleBackColor = False
@@ -89,12 +92,46 @@ Partial Class Login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Papyrus", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Papyrus", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(62, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(71, 21)
+        Me.Label1.Size = New System.Drawing.Size(102, 33)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Welcome"
+        '
+        'Lnpl_forgetpassword
+        '
+        Me.Lnpl_forgetpassword.AutoSize = True
+        Me.Lnpl_forgetpassword.Location = New System.Drawing.Point(50, 250)
+        Me.Lnpl_forgetpassword.Name = "Lnpl_forgetpassword"
+        Me.Lnpl_forgetpassword.Size = New System.Drawing.Size(110, 17)
+        Me.Lnpl_forgetpassword.TabIndex = 11
+        Me.Lnpl_forgetpassword.TabStop = True
+        Me.Lnpl_forgetpassword.Text = "Forget Password"
+        '
+        'Lnpl_changepassword
+        '
+        Me.Lnpl_changepassword.AutoSize = True
+        Me.Lnpl_changepassword.Location = New System.Drawing.Point(50, 285)
+        Me.Lnpl_changepassword.Name = "Lnpl_changepassword"
+        Me.Lnpl_changepassword.Size = New System.Drawing.Size(116, 17)
+        Me.Lnpl_changepassword.TabIndex = 12
+        Me.Lnpl_changepassword.TabStop = True
+        Me.Lnpl_changepassword.Text = "Change Password"
+        '
+        'Btn_cancel
+        '
+        Me.Btn_cancel.BackColor = System.Drawing.Color.LightGray
+        Me.Btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Btn_cancel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn_cancel.ForeColor = System.Drawing.Color.Navy
+        Me.Btn_cancel.Location = New System.Drawing.Point(270, 193)
+        Me.Btn_cancel.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_cancel.Name = "Btn_cancel"
+        Me.Btn_cancel.Size = New System.Drawing.Size(102, 33)
+        Me.Btn_cancel.TabIndex = 13
+        Me.Btn_cancel.Text = "Cancel"
+        Me.Btn_cancel.UseVisualStyleBackColor = False
         '
         'Login
         '
@@ -103,7 +140,11 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Helpdesk.My.Resources.Resources.images__4_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(489, 299)
+        Me.CancelButton = Me.Btn_cancel
+        Me.ClientSize = New System.Drawing.Size(507, 372)
+        Me.Controls.Add(Me.Btn_cancel)
+        Me.Controls.Add(Me.Lnpl_changepassword)
+        Me.Controls.Add(Me.Lnpl_forgetpassword)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_login)
         Me.Controls.Add(Me.Txt_password)
@@ -124,4 +165,7 @@ Partial Class Login
     Friend WithEvents Txt_userid As System.Windows.Forms.TextBox
     Friend WithEvents Lbl_userid As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Lnpl_forgetpassword As System.Windows.Forms.LinkLabel
+    Friend WithEvents Lnpl_changepassword As System.Windows.Forms.LinkLabel
+    Friend WithEvents Btn_cancel As System.Windows.Forms.Button
 End Class

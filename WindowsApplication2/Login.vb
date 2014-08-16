@@ -14,4 +14,14 @@
         complaint.Show()
 
     End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Lnpl_forgetpassword.LinkClicked
+
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Lnpl_changepassword.LinkClicked
+        changepassword.Show()
+
+
+    End Sub
 End Class

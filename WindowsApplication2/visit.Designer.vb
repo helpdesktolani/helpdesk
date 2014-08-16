@@ -31,11 +31,12 @@ Partial Class visit
         Me.Txt_solutiondetail = New System.Windows.Forms.TextBox()
         Me.Btn_submit = New System.Windows.Forms.Button()
         Me.Btn_cancel = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(355, 87)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(191, 317)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(233, 25)
@@ -112,6 +113,16 @@ Partial Class visit
         Me.Btn_cancel.Text = "Cancel"
         Me.Btn_cancel.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Location = New System.Drawing.Point(110, 317)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 17)
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "Visit Time:"
+        '
         'visit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 17.0!)
@@ -120,6 +131,7 @@ Partial Class visit
         Me.BackgroundImage = Global.Helpdesk.My.Resources.Resources.images__4_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(600, 492)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_cancel)
         Me.Controls.Add(Me.Btn_submit)
         Me.Controls.Add(Me.Txt_solutiondetail)
@@ -146,4 +158,5 @@ Partial Class visit
     Friend WithEvents Txt_solutiondetail As System.Windows.Forms.TextBox
     Friend WithEvents Btn_submit As System.Windows.Forms.Button
     Friend WithEvents Btn_cancel As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

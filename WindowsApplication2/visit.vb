@@ -20,4 +20,8 @@
     Private Sub Btn_submit_Click(sender As Object, e As EventArgs) Handles Btn_submit.Click
 
     End Sub
+
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
+
+    End Sub
 End Class
