@@ -82,10 +82,22 @@
     <Compile Include="complaint.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Engineerallowcation.Designer.vb">
+      <DependentUpon>Engineerallowcation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Engineerallowcation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
     <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="School.Designer.vb">
@@ -98,6 +110,12 @@
       <DependentUpon>Engineer.vb</DependentUpon>
     </Compile>
     <Compile Include="Engineer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.Designer.vb">
+      <DependentUpon>Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Status.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Userregisteration.Designer.vb">
@@ -135,14 +153,23 @@
     <EmbeddedResource Include="complaint.resx">
       <DependentUpon>complaint.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Engineerallowcation.resx">
+      <DependentUpon>Engineerallowcation.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="School.resx">
       <DependentUpon>School.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Engineer.resx">
       <DependentUpon>Engineer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Userregisteration.resx">
       <DependentUpon>Userregisteration.vb</DependentUpon>

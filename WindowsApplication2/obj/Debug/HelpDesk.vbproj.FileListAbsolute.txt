@@ -14,3 +14,7 @@ C:\WindowsApplication2\WindowsApplication2\obj\Debug\HelpDesk.vbproj.GenerateRes
 C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.exe
 C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.xml
 C:\WindowsApplication2\WindowsApplication2\obj\Debug\Helpdesk.pdb
+C:\Helpdesk\WindowsApplication2\bin\Debug\Helpdesk.exe.config
+C:\Helpdesk\WindowsApplication2\obj\Debug\Helpdesk.exe
+C:\Helpdesk\WindowsApplication2\obj\Debug\Helpdesk.xml
+C:\Helpdesk\WindowsApplication2\obj\Debug\Helpdesk.pdb

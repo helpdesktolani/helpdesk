@@ -35,6 +35,12 @@ Partial Class complaint
         Me.lbl_schoolid = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Lbl_preferredsolution = New System.Windows.Forms.Label()
+        Me.Txt_presolution = New System.Windows.Forms.TextBox()
+        Me.Lbl_status = New System.Windows.Forms.Label()
+        Me.Cmp_status = New System.Windows.Forms.ComboBox()
+        Me.Lbl_approved = New System.Windows.Forms.Label()
+        Me.Cmp_approved = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label2
@@ -53,10 +59,10 @@ Partial Class complaint
         '
         Me.Btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Btn_cancel.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn_cancel.Location = New System.Drawing.Point(208, 309)
+        Me.Btn_cancel.Location = New System.Drawing.Point(149, 490)
         Me.Btn_cancel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Btn_cancel.Name = "Btn_cancel"
-        Me.Btn_cancel.Size = New System.Drawing.Size(100, 46)
+        Me.Btn_cancel.Size = New System.Drawing.Size(101, 29)
         Me.Btn_cancel.TabIndex = 22
         Me.Btn_cancel.Text = "Cancel"
         Me.Btn_cancel.UseVisualStyleBackColor = True
@@ -64,10 +70,10 @@ Partial Class complaint
         'Btn_submit
         '
         Me.Btn_submit.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn_submit.Location = New System.Drawing.Point(314, 309)
+        Me.Btn_submit.Location = New System.Drawing.Point(256, 490)
         Me.Btn_submit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Btn_submit.Name = "Btn_submit"
-        Me.Btn_submit.Size = New System.Drawing.Size(100, 46)
+        Me.Btn_submit.Size = New System.Drawing.Size(100, 29)
         Me.Btn_submit.TabIndex = 21
         Me.Btn_submit.Text = "Submit"
         Me.Btn_submit.UseVisualStyleBackColor = True
@@ -160,6 +166,7 @@ Partial Class complaint
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Location = New System.Drawing.Point(341, 86)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(38, 17)
@@ -169,11 +176,66 @@ Partial Class complaint
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Location = New System.Drawing.Point(382, 86)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(38, 17)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = "Date:"
+        '
+        'Lbl_preferredsolution
+        '
+        Me.Lbl_preferredsolution.AutoSize = True
+        Me.Lbl_preferredsolution.BackColor = System.Drawing.Color.Transparent
+        Me.Lbl_preferredsolution.Location = New System.Drawing.Point(27, 318)
+        Me.Lbl_preferredsolution.Name = "Lbl_preferredsolution"
+        Me.Lbl_preferredsolution.Size = New System.Drawing.Size(116, 17)
+        Me.Lbl_preferredsolution.TabIndex = 26
+        Me.Lbl_preferredsolution.Text = "Preferred solution:"
+        '
+        'Txt_presolution
+        '
+        Me.Txt_presolution.Location = New System.Drawing.Point(149, 318)
+        Me.Txt_presolution.Multiline = True
+        Me.Txt_presolution.Name = "Txt_presolution"
+        Me.Txt_presolution.Size = New System.Drawing.Size(265, 59)
+        Me.Txt_presolution.TabIndex = 27
+        '
+        'Lbl_status
+        '
+        Me.Lbl_status.AutoSize = True
+        Me.Lbl_status.BackColor = System.Drawing.Color.Transparent
+        Me.Lbl_status.Location = New System.Drawing.Point(97, 395)
+        Me.Lbl_status.Name = "Lbl_status"
+        Me.Lbl_status.Size = New System.Drawing.Size(46, 17)
+        Me.Lbl_status.TabIndex = 28
+        Me.Lbl_status.Text = "Status:"
+        '
+        'Cmp_status
+        '
+        Me.Cmp_status.FormattingEnabled = True
+        Me.Cmp_status.Location = New System.Drawing.Point(149, 392)
+        Me.Cmp_status.Name = "Cmp_status"
+        Me.Cmp_status.Size = New System.Drawing.Size(265, 25)
+        Me.Cmp_status.TabIndex = 29
+        '
+        'Lbl_approved
+        '
+        Me.Lbl_approved.AutoSize = True
+        Me.Lbl_approved.BackColor = System.Drawing.Color.Transparent
+        Me.Lbl_approved.Location = New System.Drawing.Point(74, 437)
+        Me.Lbl_approved.Name = "Lbl_approved"
+        Me.Lbl_approved.Size = New System.Drawing.Size(69, 17)
+        Me.Lbl_approved.TabIndex = 30
+        Me.Lbl_approved.Text = "Approved:"
+        '
+        'Cmp_approved
+        '
+        Me.Cmp_approved.FormattingEnabled = True
+        Me.Cmp_approved.Location = New System.Drawing.Point(149, 434)
+        Me.Cmp_approved.Name = "Cmp_approved"
+        Me.Cmp_approved.Size = New System.Drawing.Size(265, 25)
+        Me.Cmp_approved.TabIndex = 31
         '
         'complaint
         '
@@ -183,7 +245,13 @@ Partial Class complaint
         Me.BackgroundImage = Global.Helpdesk.My.Resources.Resources.images__4_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.Btn_cancel
-        Me.ClientSize = New System.Drawing.Size(473, 374)
+        Me.ClientSize = New System.Drawing.Size(535, 561)
+        Me.Controls.Add(Me.Cmp_approved)
+        Me.Controls.Add(Me.Lbl_approved)
+        Me.Controls.Add(Me.Cmp_status)
+        Me.Controls.Add(Me.Lbl_status)
+        Me.Controls.Add(Me.Txt_presolution)
+        Me.Controls.Add(Me.Lbl_preferredsolution)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -219,4 +287,10 @@ Partial Class complaint
     Friend WithEvents lbl_schoolid As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Lbl_preferredsolution As System.Windows.Forms.Label
+    Friend WithEvents Txt_presolution As System.Windows.Forms.TextBox
+    Friend WithEvents Lbl_status As System.Windows.Forms.Label
+    Friend WithEvents Cmp_status As System.Windows.Forms.ComboBox
+    Friend WithEvents Lbl_approved As System.Windows.Forms.Label
+    Friend WithEvents Cmp_approved As System.Windows.Forms.ComboBox
 End Class
