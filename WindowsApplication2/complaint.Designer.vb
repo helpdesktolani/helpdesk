@@ -245,7 +245,7 @@ Partial Class complaint
         Me.BackgroundImage = Global.Helpdesk.My.Resources.Resources.images__4_
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.Btn_cancel
-        Me.ClientSize = New System.Drawing.Size(535, 561)
+        Me.ClientSize = New System.Drawing.Size(467, 534)
         Me.Controls.Add(Me.Cmp_approved)
         Me.Controls.Add(Me.Lbl_approved)
         Me.Controls.Add(Me.Cmp_status)
